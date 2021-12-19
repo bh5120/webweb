@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>   
+    <body>
+       <div class="wrap">
+           <div class="intro_bg">
+               <div class="header">
+                   <div class="search_area">
+                       <form>
+                           <input type="search" placeholder="Search">
+                           <span>검색</span>
+                       </form>
+                       
+                   </div>
+                   <ul class="nav">
+                       <li><a href="home.html">HOME</a></li>
+                       <li><a href="login.html">LOGIN</a></li>
+                       <li><a href="notify.html">NOTIFY</a></li>
+                       <li><a href="sitemap.html">SITEMAP</a></li>
+                   </ul>
+               </div>
+               <div class="intro_text">
+                    <h1>시립옥암주공2차 어린이집</h1>
+                    <h4 class="contents1">목포 국공립어린이집</h4>
+               </div>
+           </div>
+           <!-- intro end -->
+            <div class="main_text5">
+                <Section class="signup_form">
+                    <h1>SING UP</h1>
+                    <form action="">
+                        <div class="int_area">
+                            <input type="text" name="id" id="id" autocomplete="off" required>
+                            <label for="id">USER NAME</label>
+                            <span class="error" id="id_msg" >필수 정보입니다</span>
+                        </div>
+                        <div class="int_area">
+                                <input type="password" name="pw" id="pw" autocomplete="off" required>
+                                <label for="pw">PASSWORD</label>
+                                <span class="error" id="id_msg" >8~16자 영문 대 소문자, 숫자, 특수문자를 사용하세요.</span>
+                        </div>
+                        <div class="int_area">
+                            <input type="password" name="pwcheck" id="pwcheck" autocomplete="off" required>
+                            <label for="pwcheck">PASSWORD 재확인</label>
+                            <span class="error" id="id_msg" >비밀번호가 일치하지 않습니다.</span>
+                        </div> 
+                        <div class="int_area">
+                            <input type="text" name="name" id="name" autocomplete="off" required>
+                            <label for="name">NAME</label>
+                            <span class="error" id="name_Msg">필수 정보입니다.</span>
+                        </div>
+                        <div class="int_area">
+                            <div class="bir_wrap">
+                                <div class="bir_yy">
+                                    <input type="text" name="yy" id="yy" maxlength="4" autocomplete="off" required>
+                                    <label for="name">년(4자)</label>
+                                </div>
+                                <div class="bir_mm">
+                                    <select id="mm" class="sel" aria-label="월">
+                                        <option value="">월</option>
+                                                            <option value="01">
+                                                            1
+                                                        </option>
+                                                            <option value="02">
+                                                            2
+                                                        </option>
+                                                            <option value="03">
+                                                            3
+                                                        </option>
+                                                            <option value="04">
+                                                            4
+                                                        </option>
+                                                            <option value="05">
+                                                            5
+                                                        </option>
+                                                            <option value="06">
+                                                            6
+                                                        </option>
+                                                            <option value="07">
+                                                            7
+                                                        </option>
+                                                            <option value="08">
+                                                            8
+                                                        </option>
+                                                            <option value="09">
+                                                            9
+                                                        </option>
+                                                            <option value="10">
+                                                            10
+                                                        </option>
+                                                            <option value="11">
+                                                            11
+                                                        </option>
+                                                            <option value="12">
+                                                            12
+                                                        </option>
+                                    </select>
+                                </div>
+                                <div class=" bir_dd">
+                                    <input type="text" name="dd" id="dd" maxlength="2" autocomplete="off" required>
+                                    <label for="name">일</label>
+                                </div>
+                            </div>
+                            <span class="error" id="birth_Msg">필수 정보입니다.</span>    
+                        </div>
+
+                        <!--     
+                            <div class="join_row join_sex">
+                                <h3 class="join_title"><label for="gender">성별</label></h3>
+                                <div class="ps_box gender_code">
+                                    <select id="gender" name="gender" class="sel" aria-label="성별">
+                                        <option value="" selected="">성별</option>
+                                                <option value="M">남자</option>
+                                                <option value="F">여자</option>
+                                                <option value="U">선택 안함</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <span class="error_next_box" id="genderMsg" style="display:none" aria-live="assertive"></span>
+        
+                            <div class="join_row join_email">
+                                <h3 class="join_title"><label for="email">본인 확인 이메일<span class="terms_choice">(선택)</span></label></h3>
+                                <span class="ps_box int_email box_right_space">
+                                    <input type="text" id="email" name="email" placeholder="선택입력" aria-label="선택입력" class="int" maxlength="100">
+                                </span>
+                            </div>
+                            <span class="error_next_box" id="emailMsg" style="display:none" aria-live="assertive"></span>
+                        </div> -->
+                        <div class="btn_area">
+                            <button type="submit">SIGN UP</button>
+                        </div>
+                    </form>
+                </Section>
+            </div>    
+        </div>
+    </body>
+</html>
